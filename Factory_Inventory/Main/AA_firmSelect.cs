@@ -11,6 +11,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Deployment.Application;
 
 namespace Factory_Inventory.Factory_Classes
 {
@@ -42,6 +43,10 @@ namespace Factory_Inventory.Factory_Classes
                 con_start = "Data Source = " + Properties.Settings.Default.LastIP + ", 1433;";
             }
             Global.con_start = this.con_start;
+            if(ApplicationDeployment.IsNetworkDeployed)
+            {
+                this.toolStripLabel1.Text = ApplicationDeployment.CurrentDeployment.CurrentVersion.ToString();
+            }
         }
 
         //callbacks
@@ -320,6 +325,11 @@ namespace Factory_Inventory.Factory_Classes
                     mc.ErrorBox("You do not have access to DELETE the Firm");
                 }
             }
+        }
+
+        private void toolStripLabel1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
