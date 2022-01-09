@@ -64,8 +64,8 @@
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Firm_Name,
             this.Current_User});
-            this.dataGridView1.Location = new System.Drawing.Point(9, 98);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 121);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
@@ -73,7 +73,7 @@
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(579, 288);
+            this.dataGridView1.Size = new System.Drawing.Size(772, 354);
             this.dataGridView1.TabIndex = 3;
             this.dataGridView1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dataGridView1_KeyDown);
             // 
@@ -94,10 +94,10 @@
             // localButton
             // 
             this.localButton.BackColor = System.Drawing.Color.Silver;
-            this.localButton.Location = new System.Drawing.Point(182, 30);
-            this.localButton.Margin = new System.Windows.Forms.Padding(2);
+            this.localButton.Location = new System.Drawing.Point(243, 37);
+            this.localButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.localButton.Name = "localButton";
-            this.localButton.Size = new System.Drawing.Size(406, 45);
+            this.localButton.Size = new System.Drawing.Size(541, 55);
             this.localButton.TabIndex = 4;
             this.localButton.Text = "Server Select";
             this.localButton.UseVisualStyleBackColor = false;
@@ -105,10 +105,10 @@
             // 
             // enterButton
             // 
-            this.enterButton.Location = new System.Drawing.Point(476, 391);
-            this.enterButton.Margin = new System.Windows.Forms.Padding(2);
+            this.enterButton.Location = new System.Drawing.Point(635, 481);
+            this.enterButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.enterButton.Name = "enterButton";
-            this.enterButton.Size = new System.Drawing.Size(112, 49);
+            this.enterButton.Size = new System.Drawing.Size(149, 60);
             this.enterButton.TabIndex = 8;
             this.enterButton.Text = "Select";
             this.enterButton.UseVisualStyleBackColor = true;
@@ -117,10 +117,10 @@
             // deleteButton
             // 
             this.deleteButton.BackColor = System.Drawing.Color.Tomato;
-            this.deleteButton.Location = new System.Drawing.Point(125, 391);
-            this.deleteButton.Margin = new System.Windows.Forms.Padding(2);
+            this.deleteButton.Location = new System.Drawing.Point(167, 481);
+            this.deleteButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.deleteButton.Name = "deleteButton";
-            this.deleteButton.Size = new System.Drawing.Size(112, 49);
+            this.deleteButton.Size = new System.Drawing.Size(149, 60);
             this.deleteButton.TabIndex = 10;
             this.deleteButton.Text = "Delete Firm";
             this.deleteButton.UseVisualStyleBackColor = false;
@@ -129,10 +129,10 @@
             // createButton
             // 
             this.createButton.BackColor = System.Drawing.Color.GreenYellow;
-            this.createButton.Location = new System.Drawing.Point(9, 391);
-            this.createButton.Margin = new System.Windows.Forms.Padding(2);
+            this.createButton.Location = new System.Drawing.Point(12, 481);
+            this.createButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.createButton.Name = "createButton";
-            this.createButton.Size = new System.Drawing.Size(112, 49);
+            this.createButton.Size = new System.Drawing.Size(149, 60);
             this.createButton.TabIndex = 11;
             this.createButton.Text = "Create New Firm";
             this.createButton.UseVisualStyleBackColor = false;
@@ -142,20 +142,19 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(179, 11);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(239, 14);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 17);
+            this.label1.Size = new System.Drawing.Size(85, 20);
             this.label1.TabIndex = 12;
-            this.label1.Text = "Server:";
+            this.label1.Text = "SSServer:";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(9, 10);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(155, 65);
+            this.pictureBox1.Size = new System.Drawing.Size(207, 80);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
@@ -167,9 +166,9 @@
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton1,
             this.toolStripButton2});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 456);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 561);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(597, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(796, 31);
             this.toolStrip1.TabIndex = 14;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -178,7 +177,7 @@
             this.toolStripButton1.BackColor = System.Drawing.SystemColors.Control;
             this.toolStripButton1.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(76, 25);
+            this.toolStripButton1.Size = new System.Drawing.Size(100, 31);
             this.toolStripButton1.Text = "Backup All";
             this.toolStripButton1.TextBoxTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
@@ -186,13 +185,13 @@
             // toolStripButton2
             // 
             this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(6, 25);
+            this.toolStripButton2.Size = new System.Drawing.Size(6, 31);
             // 
             // AA_firmSelect
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(597, 481);
+            this.ClientSize = new System.Drawing.Size(796, 592);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
@@ -201,7 +200,7 @@
             this.Controls.Add(this.enterButton);
             this.Controls.Add(this.localButton);
             this.Controls.Add(this.dataGridView1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "AA_firmSelect";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Select Firm";

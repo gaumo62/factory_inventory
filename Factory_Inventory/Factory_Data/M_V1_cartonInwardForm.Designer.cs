@@ -132,9 +132,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(12, 136);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(80, 17);
+            this.label3.Size = new System.Drawing.Size(52, 17);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Bill Number";
+            this.label3.Text = "Bill No.";
             // 
             // billDateDTP
             // 
