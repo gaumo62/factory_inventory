@@ -403,6 +403,11 @@ namespace Factory_Inventory.Factory_Classes
                         }
                     }
                 }
+                else
+                {
+                    MessageBox.Show("Update unavailable");
+                    return;
+                }
             }
         }
     }
