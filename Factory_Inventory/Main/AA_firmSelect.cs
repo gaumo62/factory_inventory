@@ -45,7 +45,7 @@ namespace Factory_Inventory.Factory_Classes
             Global.con_start = this.con_start;
             if(ApplicationDeployment.IsNetworkDeployed)
             {
-                this.toolStripLabel1.Text = ApplicationDeployment.CurrentDeployment.CurrentVersion.ToString();
+                this.toolStripLabel1.Text = "v" + ApplicationDeployment.CurrentDeployment.CurrentVersion.ToString();
             }
         }
 
